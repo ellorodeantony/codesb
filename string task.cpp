@@ -1,15 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
-main() {
-    string a;
+main () {
+string a;
     cin >> a;
+    int c = 0;
+    int b = 0;
+    for (int i = 0; i < a.size() - 1; i++)
+    {
+        if (a[i] == 'a' or a[i] == 'e' or a[i] == 'i' or a[i] == 'o' or a[i] == 'u')
+        {
 
-    for (char c : a) {
-        c = tolower(c); // para que funcione con mayúsculas también
-        if (c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u'&& c != 'y') {
-            cout << "." << c;
+    cout <<"."<<a;
         }
     }
-
 
 }
