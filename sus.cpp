@@ -16,8 +16,8 @@ main ()
             }
         }
     }
-    cout<<setw(2)<<setfill('0')<<h<< ":"
-         <<setw(2)<<setfill('0')<<m<<":"
+    cout<<setw(2)<<setfill('0')<<h<< " "
+         <<setw(2)<<setfill('0')<<m<<" "
          <<setw(2)<<setfill('0')<<s<< endl;
 }
 
